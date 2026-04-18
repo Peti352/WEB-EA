@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OOJS | Web programozás-1</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header>
+  <h1>Web programozás-1 Előadás Házi feladat</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Főoldal</a></li>
+      <li><a href="javascript.html">JavaScript</a></li>
+      <li><a href="react.html">React</a></li>
+      <li><a href="spa.html">SPA</a></li>
+      <li><a href="fetchapi.html">Fetch API</a></li>
+      <li><a href="axios.html">Axios</a></li>
+      <li><a href="oojs.html">OOJS</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Objektumorientált JavaScript</h2>
+  <p>
+    Kattints a vászonra egy új alakzat hozzáadásához. Az alakzatok gravitáció hatására mozognak
+    és pattannak a falakról. <strong>Shift + kattintás:</strong> csillag alakzat (öröklődik a körből).
+  </p>
+
+  <section class="card">
+    <div class="button-row" style="margin-bottom: 1rem;">
+      <button id="add-circle">+ Kör</button>
+      <button id="add-star">+ Csillag</button>
+      <button class="danger" id="clear">Törlés</button>
+    </div>
+    <canvas id="oojs-canvas" width="900" height="480"></canvas>
+    <p style="text-align: center; color: var(--muted); font-size: 0.9rem;">
+      Alakzatok száma: <span id="count">0</span>
+    </p>
+  </section>
+
+  <section class="card">
+    <h3>Használt OOJS elemek</h3>
+    <ul style="list-style: inside disc; padding-left: 1rem;">
+      <li><code>class Shape</code> – alaposztály (constructor, metódusok)</li>
+      <li><code>class Circle extends Shape</code> – öröklődés <code>super()</code>-rel</li>
+      <li><code>class Star extends Circle</code> – további örökítés</li>
+      <li><code>document.body.appendChild</code> – DOM elem beszúrás</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>Készítette: <strong>Peti352</strong> (Neptun: <strong>XXXXXX</strong>)</p>
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/oojs-app.js"></script>
+</body>
+</html>
