@@ -19,4 +19,8 @@ Thumbs.db
 # Build helpers (nem resze a beadando-nak)
 extract_docx.py
 docx_dump.txt
+upload_ftp.py
 Projekt feladat fájlok/
+
+# A PDF-hez szant dokumentacio valodi jelszoval - NEM kerulhet public GitHub-ra
+docs/dokumentacio-beadando.md
