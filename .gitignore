@@ -24,4 +24,7 @@ Projekt feladat fájlok/
 
 # A PDF-hez szant dokumentacio valodi jelszoval - NEM kerulhet public GitHub-ra
 docs/dokumentacio-beadando.md
+docs/dokumentacio-beadando.pdf
+docs/Peti-GULX05.pdf
+docs/Gabor-YLD4AU.pdf
 update_authors.py
