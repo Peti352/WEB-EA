@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPA | Web programozás-1</title>
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    .react-frame {
+      width: 100%;
+      min-height: 720px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Web programozás-1 Előadás Házi feladat</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Főoldal</a></li>
+      <li><a href="javascript.html">JavaScript</a></li>
+      <li><a href="react.html">React</a></li>
+      <li><a href="spa.html">SPA</a></li>
+      <li><a href="fetchapi.html">Fetch API</a></li>
+      <li><a href="axios.html">Axios</a></li>
+      <li><a href="oojs.html">OOJS</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Single Page Application</h2>
+  <p>
+    Egy-oldalas alkalmazás két React mini-applikációval: Kalkulátor és Amőba (Tic-Tac-Toe).
+    Mindkettő használ komponenseket és <code>useState</code> állapotváltozókat.
+  </p>
+  <p style="font-size: 0.85rem;">
+    <strong>A két mini-app forrásai:</strong>
+    Kalkulátor – klasszikus React tutorial alapján (React.dev és tutorialspoint tutorial-minták);
+    Tic-Tac-Toe – a <a href="https://react.dev/learn/tutorial-tic-tac-toe" target="_blank">React hivatalos tutorial</a> alapján.
+  </p>
+  <iframe class="react-frame" src="react/spa-app/dist/index.html" title="SPA app"></iframe>
+</main>
+
+<footer>
+  <p>Készítette: <strong>Peti352</strong> (Neptun: <strong>XXXXXX</strong>)</p>
+</footer>
+
+<script src="js/common.js"></script>
+</body>
+</html>
