@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-// A PHP backend az axios.html mellett ('api/' relatív út).
+// A PHP backend a domain gyökerében van (/api/).
 // Fejlesztéshez (vite dev) allithato a VITE_API_BASE env-ben.
-const API = import.meta.env.VITE_API_BASE || '../../api/';
+const API = import.meta.env.VITE_API_BASE || '/api/';
 
 const EMPTY = { cim: '', rendezo: '', ev: '', mufaj: '', ertekeles: '' };
 
