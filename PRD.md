@@ -4,7 +4,7 @@
 > **Tárgy:** Webprogramozás 1 (GAMF, Neumann János Egyetem)
 > **Oktató:** Dr. Subecz Zoltán
 > **Összes pont:** 30
-> **Verziókövetés:** GitHub (repo: `WEB-EA`, user: `Peti352`)
+> **Verziókövetés:** GitHub (repo: `WEB-EA`, user: `Peti352`  (valodi nevek: Peti + Gabor))
 > **Tárhely:** Nethely.hu (ingyenes, 256 MB, PHP 8, MySQL)
 
 ---

@@ -1,6 +1,6 @@
 # WEB-EA — Webprogramozás 1 Előadás Beadandó
 
-Készítette: **Peti352** (Neptun: `GULX05`)
+Készítette: **Peti** (Neptun: `GULX05`) és **Gábor** (Neptun: `YLD4AU`)
 Oktató: Dr. Subecz Zoltán
 Intézmény: Neumann János Egyetem, GAMF Informatikai és Műszaki Kar
 

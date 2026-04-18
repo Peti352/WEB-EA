@@ -24,3 +24,4 @@ Projekt feladat fájlok/
 
 # A PDF-hez szant dokumentacio valodi jelszoval - NEM kerulhet public GitHub-ra
 docs/dokumentacio-beadando.md
+update_authors.py

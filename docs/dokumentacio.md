@@ -2,8 +2,7 @@
 
 ## Dokumentáció
 
-**Készítette:** Peti352
-**Neptun kód:** `GULX05`
+**Készítették:** Peti (Neptun: `GULX05`) és Gábor (Neptun: `YLD4AU`)
 **Oktató:** Dr. Subecz Zoltán
 **Intézmény:** Neumann János Egyetem, GAMF Informatikai és Műszaki Kar
 **Kurzus:** Webprogramozás 1 – előadás
@@ -144,7 +143,7 @@ A főoldal a teljes alkalmazás bemutatójaként szolgál. Látványos hero szek
 
 **Kötelező elemek:**
 - **H1 címsor** a fejlécben: *„Web programozás-1 Előadás Házi feladat"*
-- **Lábléc:** készítő neve (Peti352) és Neptun kódja
+- **Lábléc:** a két készítő neve (Peti és Gábor) és Neptun kódjaik (`GULX05`, `YLD4AU`)
 - **Navigációs menü** az összes többi oldalra (ezt a `<header>` minden oldalon tartalmazza, konzisztens design)
 
 A főoldal vizuálisan három részből áll:
@@ -422,7 +421,7 @@ A feladat a projektmunka láthatóságát díjazza (3 pont). Ennek két módja l
 - **Páros munka:** mindkét személy saját GitHub fiókjáról commitol
 - **Egyedüli munka:** két GitHub fiók létrehozása, mindkettőről commit
 
-A beadandó jelenlegi formájában Peti352 a fő fiók. Ha egyedül készültem, egy második fiókot is létre kell hoznom és a feladatok felét arról commitolnom.
+A két csapattag két külön GitHub fiókról dolgozott: `Peti352` (Peti, GULX05) és `gabahodi7-dot` (Gábor, YLD4AU). A commit-történetben pontosan látszik, hogy melyik tag melyik fejlesztési részt készítette el.
 
 ![GitHub commit history – 12 commit két szerzőtől](img/12-github-commits.png)
 
