@@ -3,7 +3,7 @@
 ## Dokumentáció
 
 **Készítette:** Peti352
-**Neptun kód:** `XXXXXX`
+**Neptun kód:** `GULX05`
 **Oktató:** Dr. Subecz Zoltán
 **Intézmény:** Neumann János Egyetem, GAMF Informatikai és Műszaki Kar
 **Kurzus:** Webprogramozás 1 – előadás
