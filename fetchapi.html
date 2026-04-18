@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch API | Web programozás-1</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header>
+  <h1>Web programozás-1 Előadás Házi feladat</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Főoldal</a></li>
+      <li><a href="javascript.html">JavaScript</a></li>
+      <li><a href="react.html">React</a></li>
+      <li><a href="spa.html">SPA</a></li>
+      <li><a href="fetchapi.html">Fetch API</a></li>
+      <li><a href="axios.html">Axios</a></li>
+      <li><a href="oojs.html">OOJS</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Fetch API + PHP CRUD</h2>
+  <p>
+    Vanilla JavaScript + Fetch API. Az adatokat a szerver oldalon, MySQL adatbázisban tároljuk
+    PHP (PDO) végpontokon keresztül (<code>api/list.php</code>, <code>api/create.php</code>,
+    <code>api/update.php</code>, <code>api/delete.php</code>).
+  </p>
+
+  <div id="msg"></div>
+
+  <section class="card">
+    <h3 id="form-title">Új film hozzáadása</h3>
+    <form id="film-form">
+      <input type="hidden" id="film-id">
+      <div class="form-grid">
+        <input type="text" id="cim" placeholder="Cím" required>
+        <input type="text" id="rendezo" placeholder="Rendező" required>
+        <input type="number" id="ev" placeholder="Év" min="1900" max="2100" required>
+        <input type="text" id="mufaj" placeholder="Műfaj" required>
+        <input type="number" id="ertekeles" placeholder="Értékelés (0-10)" step="0.1" min="0" max="10" required>
+      </div>
+      <div class="button-row">
+        <button type="submit" id="save-btn">Hozzáadás</button>
+        <button type="button" class="secondary" id="cancel-btn" style="display:none">Mégse</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="card">
+    <h3>Filmek listája (szerverről)</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th><th>Cím</th><th>Rendező</th><th>Év</th><th>Műfaj</th><th>Értékelés</th><th>Műveletek</th>
+        </tr>
+      </thead>
+      <tbody id="film-list"></tbody>
+    </table>
+  </section>
+</main>
+
+<footer>
+  <p>Készítette: <strong>Peti352</strong> (Neptun: <strong>XXXXXX</strong>)</p>
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/fetchapi-crud.js"></script>
+</body>
+</html>
