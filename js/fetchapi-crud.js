@@ -1,4 +1,3 @@
-// Fetch API + PHP CRUD
 (function () {
   const API = 'api/';
   const form = document.getElementById('film-form');

@@ -1,10 +1,4 @@
 <?php
-// Nethely.hu tarhelyen modositando adatok:
-//   DB_NAME    - a Nethely-rol kapott adatbazis neve
-//   DB_USER    - a Nethely-rol kapott adatbazis felhasznalo
-//   DB_PASS    - a Nethely-rol kapott adatbazis jelszo
-// A 'host' Nethely eseten is 'localhost' marad.
-
 const DB_HOST = 'localhost';
 const DB_NAME = 'adatb1';
 const DB_USER = 'adatbf';

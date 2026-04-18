@@ -1,4 +1,3 @@
-// Vanilla JS CRUD - adatok tombben
 (function () {
   const filmek = [...window.FILMEK_SEED];
   let nextId = Math.max(...filmek.map(f => f.id)) + 1;

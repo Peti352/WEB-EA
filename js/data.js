@@ -1,5 +1,3 @@
-// A valasztott adatbazis egy tablajanak JS tomb-os masolata.
-// Ezt hasznalja a javascript.html es a React react.html oldal.
 window.FILMEK_SEED = [
   { id: 1, cim: 'Valami Amerika',       rendezo: 'Herendi Gábor',         ev: 2002, mufaj: 'vígjáték', ertekeles: 8.2 },
   { id: 2, cim: 'Kontroll',             rendezo: 'Antal Nimród',          ev: 2003, mufaj: 'dráma',    ertekeles: 7.9 },

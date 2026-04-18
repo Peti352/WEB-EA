@@ -1,7 +1,5 @@
 import { useState } from 'react';
 
-// Egyszeru kalkulator komponens - useState allapotkezelessel.
-// Forras alapja: klasszikus React tutorial-kalkulator minta (React hivatalos docs + tutorialspoint).
 export default function Calculator() {
   const [display, setDisplay] = useState('0');
   const [expr, setExpr] = useState('');
@@ -41,7 +39,6 @@ export default function Calculator() {
     try {
       const full = expr + ' ' + display;
       const safe = full.replace(/[^0-9+\-*/.\s]/g, '');
-      // eslint-disable-next-line no-new-func
       const result = Function('return ' + safe)();
       setDisplay(String(Number(result.toFixed(10))));
       setExpr('');

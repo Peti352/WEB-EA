@@ -1,7 +1,5 @@
 import { useState } from 'react';
 
-// Tic-Tac-Toe (amoba) komponens - useState allapotkezelessel.
-// Forras alapja: React hivatalos tutorial (https://react.dev/learn/tutorial-tic-tac-toe)
 function Square({ value, onClick }) {
   const cls = 'ttt-cell' + (value === 'X' ? ' x' : value === 'O' ? ' o' : '');
   return (

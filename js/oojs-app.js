@@ -1,16 +1,13 @@
-// Objektumorientalt JS - class, constructor, extends, super, appendChild
 (function () {
   const canvas = document.getElementById('oojs-canvas');
   const ctx = canvas.getContext('2d');
   const countEl = document.getElementById('count');
 
-  // Dinamikusan letrehozott info box - document.body.appendChild hasznalat
   const info = document.createElement('div');
   info.style.cssText = 'position:fixed;bottom:10px;right:10px;background:#0f172a;color:white;padding:0.5rem 0.8rem;border-radius:6px;font-size:0.8rem;font-family:monospace;';
   info.textContent = 'OOJS demo';
   document.body.appendChild(info);
 
-  // Alaposztaly
   class Shape {
     constructor(x, y) {
       this.x = x;
@@ -20,7 +17,7 @@
     }
 
     update() {
-      this.vy += 0.2; // gravitacio
+      this.vy += 0.2;
       this.x += this.vx;
       this.y += this.vy;
 
@@ -37,7 +34,6 @@
     }
   }
 
-  // Leszarmazott - kor
   class Circle extends Shape {
     constructor(x, y) {
       super(x, y);
@@ -53,13 +49,12 @@
     }
   }
 
-  // Tovabbi leszarmazott - csillag, extends + super
   class Star extends Circle {
     constructor(x, y) {
       super(x, y);
       this.points = 5;
       this.rotation = 0;
-      this.color = `hsl(${Math.random() * 60 + 30}, 90%, 65%)`; // aranyszinek
+      this.color = `hsl(${Math.random() * 60 + 30}, 90%, 65%)`;
     }
 
     update() {
@@ -116,7 +111,6 @@
     shapes.length = 0;
   });
 
-  // Induloskor par alakzat
   for (let i = 0; i < 5; i++) shapes.push(new Circle(100 + i * 120, 50));
   shapes.push(new Star(450, 50));
 

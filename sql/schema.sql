@@ -1,7 +1,3 @@
--- WEB-EA / Webprogramozas 1 - Eloadas Beadando
--- Adatbazis sema + seed adatok
--- Nethely.hu phpMyAdmin felulethez keszult
-
 DROP TABLE IF EXISTS filmek;
 
 CREATE TABLE filmek (
