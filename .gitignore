@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+api/config.local.php
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Claude Code (tooling config, not part of beadando)
+.claude/
+
+# Build helpers (nem resze a beadando-nak)
+extract_docx.py
+docx_dump.txt
+Projekt feladat fájlok/
